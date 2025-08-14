@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "lib": ["DOM", "ES2021"],
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "bundler",
+    "useDefineForClassFields": true,
+    "baseUrl": ".",
+    "paths": {
+      "@mai/components/*": ["packages/components/src/*"],
+      "@mai/components": ["packages/components/src/index.ts"],
+      "@mai/business-components/*": ["packages/business-components/src/*"],
+      "@mai/business-components": ["packages/business-components/src/index.ts"]
+    },
+    "types": ["vitest/globals", "@testing-library/jest-dom"]
+  },
+  "include": ["packages", "types", ".storybook"]
+}

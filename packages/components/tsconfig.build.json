@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@mai/components/*": ["src/*"],
+      "@mai/components": ["src/index.ts"]
+    }
+  }
+}

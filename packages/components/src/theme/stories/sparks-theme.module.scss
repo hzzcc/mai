@@ -1,0 +1,13 @@
+.tokenViewer {
+  gap: 1rem;
+  background-color: var(--colors-surface-background);
+  color: var(--colors-text-primary);
+
+  table {
+    border-collapse: collapse;
+    th,
+    td {
+      border: solid 1px var(--colors-primary-default);
+    }
+  }
+}
