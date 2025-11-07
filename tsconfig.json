@@ -27,7 +27,17 @@
       "@mai/components/*": ["packages/components/src/*"],
       "@mai/components": ["packages/components/src/index.ts"],
       "@mai/business-components/*": ["packages/business-components/src/*"],
-      "@mai/business-components": ["packages/business-components/src/index.ts"]
+      "@mai/business-components": ["packages/business-components/src/index.ts"],
+      "@mai/api/*": ["packages/api/src/*"],
+      "@mai/api": ["packages/api/src/index.ts"],
+      "@mai/utils/*": ["packages/utils/src/*"],
+      "@mai/utils": ["packages/utils/src/index.ts"],
+      "@mai/models/*": ["packages/models/src/*"],
+      "@mai/models": ["packages/models/src/index.ts"],
+      "@mai/hooks/*": ["packages/hooks/src/*"],
+      "@mai/hooks": ["packages/hooks/src/index.ts"],
+      "@mai/i18n/*": ["packages/i18n/src/*"],
+      "@mai/i18n": ["packages/i18n/src/index.ts"]
     },
     "types": ["vitest/globals", "@testing-library/jest-dom"]
   },

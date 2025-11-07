@@ -1,0 +1,38 @@
+{
+  "name": "@mai/i18n",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "module": "./esm/index.js",
+  "main": "./cjs/index.js",
+  "types": "./esm/index.d.ts",
+  "files": [
+    "esm",
+    "cjs"
+  ],
+  "scripts": {
+    "dev": "rslib build --watch",
+    "build": "rslib build"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">=19.2.0",
+    "react-dom": ">=19.2.0",
+    "@types/react": ">=19.2.0",
+    "@types/react-dom": ">=19.2.0"
+  },
+  "devDependencies": {},
+  "exports": {
+    ".": {
+      "import": "./esm/index.js",
+      "type": "./esm/index.d.ts",
+      "require": "./cjs/index.js"
+    },
+    "./*": {
+      "import": "./esm/*/index.js",
+      "type": "./esm/*/index.d.ts",
+      "require": "./cjs/*/index.js"
+    }
+  }
+}
+

@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": ["src", "../../types"],
+  "exclude": [
+    "**/*.compositions.tsx",
+    "**/*.compositions.ts",
+    "**/*.stories.tsx",
+    "**/*.stories.ts",
+    "**/*.spec.tsx",
+    "**/*.spec.ts",
+    "**/*.test.tsx",
+    "**/*.test.ts",
+    "**/*.md",
+    "**/*.mdx"
+  ]
+}
+

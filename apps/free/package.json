@@ -12,7 +12,8 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "@mai/components": "workspace:*",
-    "@mai/business-components": "workspace:*"
+    "@mai/business-components": "workspace:*",
+    "@mai/i18n": "workspace:*"
   },
   "devDependencies": {
     "@rsbuild/core": "^1.6.0",
