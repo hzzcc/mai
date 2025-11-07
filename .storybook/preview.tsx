@@ -3,7 +3,7 @@ import {
   type ThemeMode,
   useThemeController,
 } from '@mai/components/theme';
-import type { Preview } from '@storybook/react';
+import type { Preview } from 'storybook-react-rsbuild';
 import React from 'react';
 
 const ThemeProvider = ({

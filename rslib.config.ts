@@ -1,6 +1,18 @@
 import { pluginReact } from '@rsbuild/plugin-react';
 import { pluginSass } from '@rsbuild/plugin-sass';
 import { defineConfig, type RslibConfig } from '@rslib/core';
+import { pluginBabel } from '@rsbuild/plugin-babel';
+
+export const plugins = [
+  pluginReact(),
+  pluginBabel({
+    include: /\.(?:jsx|tsx)$/,
+    babelLoaderOptions(opts) {
+      opts.plugins?.unshift('babel-plugin-react-compiler');
+    },
+  }),
+  pluginSass(),
+];
 
 export const getConfig = (config: Partial<RslibConfig> = {}) =>
   defineConfig({
@@ -52,7 +64,7 @@ export const getConfig = (config: Partial<RslibConfig> = {}) =>
     output: {
       target: 'web',
     },
-    plugins: [pluginReact(), pluginSass()],
+    plugins: plugins,
   });
 
 export default getConfig();

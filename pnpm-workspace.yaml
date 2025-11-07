@@ -1,6 +1,8 @@
 packages:
   # 通用组件库
   - 'packages/*'
+  # 应用
+  - 'apps/*'
 
 # 仅构建依赖项
 onlyBuiltDependencies:

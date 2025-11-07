@@ -1,5 +1,5 @@
 import { DatlasTheme } from '@mai/components/theme';
-import type { Meta } from '@storybook/react';
+import type { Meta } from 'storybook-react-rsbuild';
 import {
   DarkTheme,
   InteractiveThemeExample,
@@ -7,7 +7,7 @@ import {
 } from './theme.compositions';
 
 const meta: Meta<typeof DatlasTheme> = {
-  title: 'Components/Theme/DatlasTheme',
+  title: 'Theme/DatlasTheme',
   component: DatlasTheme,
   tags: ['autodocs'],
 };

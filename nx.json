@@ -1,9 +1,7 @@
 {
   "targetDefaults": {
     "dev": {
-      "cache": true,
-      "dependsOn": ["^dev"],
-      "outputs": ["{projectRoot}/**/esm", "{projectRoot}/**/cjs"]
+      "cache": false
     },
     "build": {
       "cache": true,

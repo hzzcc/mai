@@ -4,7 +4,9 @@
     "baseUrl": ".",
     "paths": {
       "@mai/business-components/*": ["src/*"],
-      "@mai/business-components": ["src/index.ts"]
+      "@mai/business-components": ["src/index.ts"],
+      "@mai/components/*": ["../components/src/*"],
+      "@mai/components": ["../components/src/index.ts"]
     }
   }
 }

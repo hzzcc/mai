@@ -1,8 +1,8 @@
-import type { Meta, StoryObj } from '@storybook/react';
+import type { Meta, StoryObj } from 'storybook-react-rsbuild';
 import { TextInput } from '../text-input';
 
 const meta: Meta<typeof TextInput> = {
-  title: 'Inputs/TextInput',
+  title: 'Components/Inputs/TextInput',
   component: TextInput,
   tags: ['autodocs'],
 };
