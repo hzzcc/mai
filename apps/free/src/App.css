@@ -1,8 +1,23 @@
 body {
   margin: 0;
-  color: #fff;
+  /* color: #fff; */
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  background-image: linear-gradient(to bottom, #020917, #101725);
+}
+
+a {
+  color: var(--colors-primary-default);
+  text-decoration: none;
+  &:hover {
+    color: var(--colors-primary-hover);
+  }
+  &:active {
+    color: var(--colors-primary-active);
+  }
+}
+
+.main {
+  color: var(--colors-text-primary);
+  background-color: var(--colors-surface-background);
 }
 
 .content {
@@ -12,6 +27,9 @@ body {
   text-align: center;
   flex-direction: column;
   justify-content: center;
+  max-width: 500px;
+  margin: auto;
+  gap: 20px; 
 }
 
 .content h1 {

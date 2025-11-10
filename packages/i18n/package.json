@@ -1,5 +1,5 @@
 {
-  "name": "@mai/business-components",
+  "name": "@mai/i18n",
   "version": "0.1.0",
   "private": false,
   "type": "module",
@@ -10,28 +10,19 @@
     "esm",
     "cjs"
   ],
-  "sideEffects": [
-    "**/*.scss"
-  ],
   "scripts": {
     "dev": "rslib build --watch",
     "build": "rslib build"
   },
   "dependencies": {
-    "classnames": "^2.5.1",
-    "lodash": "^4.17.21",
-    "@mai/components": "workspace:*",
-    "@mai/i18n": "workspace:*"
+    "i18next": "^25.6.1",
+    "react-i18next": "^16.2.4"
   },
   "peerDependencies": {
-    "react": ">=19.2.0",
-    "react-dom": ">=19.2.0",
     "@types/react": ">=19.2.0",
-    "@types/react-dom": ">=19.2.0"
-  },
-  "devDependencies": {
-    "@types/lodash": "^4.17.20",
-    "react-router-dom": "^6.14.1"
+    "@types/react-dom": ">=19.2.0",
+    "react": ">=19.2.0",
+    "react-dom": ">=19.2.0"
   },
   "exports": {
     ".": {

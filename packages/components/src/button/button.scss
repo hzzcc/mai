@@ -9,13 +9,13 @@
 
 .demo-button--primary {
   color: white;
-  background-color: #1ea7fd;
+  background-color: var(--colors-primary-default);
 }
 
 .demo-button--secondary {
-  color: #333;
-  background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  color: var(--colors-text-secondary);
+  background-color: var(--colors-surface-secondary);
+  box-shadow: var(--effects-shadows-small) inset;
 }
 
 .demo-button--small {

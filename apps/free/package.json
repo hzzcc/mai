@@ -9,10 +9,12 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
+    "@mai/business-components": "workspace:*",
+    "@mai/components": "workspace:*",
+    "@mai/i18n": "workspace:*",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "@mai/components": "workspace:*",
-    "@mai/business-components": "workspace:*"
+    "react-router-dom": "^6.14.1"
   },
   "devDependencies": {
     "@rsbuild/core": "^1.6.0",

@@ -9,3 +9,6 @@ declare module '*.svg?react' {
   const ReactComponent: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
   export default ReactComponent;
 }
+
+// Import i18n types to ensure type hints work
+import '@mai/i18n';

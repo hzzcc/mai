@@ -1,0 +1,38 @@
+{
+  "common": {
+    "button": {
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "delete": "Delete",
+      "edit": "Edit",
+      "save": "Save"
+    },
+    "placeholder": {
+      "search": "Search...",
+      "input": "Please enter"
+    },
+    "message": {
+      "success": "Operation successful",
+      "error": "Operation failed",
+      "loading": "Loading..."
+    },
+    "welcome": "Start building amazing things with Rsbuild.",
+    "language": "Language",
+    "theme": "Theme"
+  },
+  "user": {
+    "profile": "User Profile",
+    "name": "Name: {{name}}",
+    "email": "Email",
+    "phone": "Phone",
+    "greeting": "Hello, {{name}}!",
+    "nameTitle": "Name",
+    "userMessagesUnread": "Hello <0>{{name}}</0>! You have {{count}} unread messages. <1>Go to messages</1>",
+    "items": {
+      "zero": "No items",
+      "one": "1 item",
+      "other": "{{count}} items"
+    }
+  }
+}

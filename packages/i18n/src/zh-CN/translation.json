@@ -1,0 +1,38 @@
+{
+  "common": {
+    "button": {
+      "submit": "提交",
+      "cancel": "取消",
+      "confirm": "确认",
+      "delete": "删除",
+      "edit": "编辑",
+      "save": "保存"
+    },
+    "placeholder": {
+      "search": "搜索...",
+      "input": "请输入"
+    },
+    "message": {
+      "success": "操作成功",
+      "error": "操作失败",
+      "loading": "加载中..."
+    },
+    "welcome": "开始使用 Rsbuild 构建精彩的应用。",
+    "language": "语言",
+    "theme": "主题"
+  },
+  "user": {
+    "profile": "用户资料",
+    "name": "姓名：{{name}}",
+    "email": "邮箱",
+    "phone": "手机号",
+    "greeting": "你好，{{name}}！",
+    "nameTitle": "姓名",
+    "userMessagesUnread": "你好，<0>{{name}}</0>！你有{{count}}条未读消息。<1>Go to messages</1>",
+    "items": {
+      "zero": "没有项目",
+      "one": "1 个项目",
+      "other": "{{count}} 个项目"
+    }
+  }
+}
