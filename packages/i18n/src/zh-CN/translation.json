@@ -28,7 +28,7 @@
     "phone": "手机号",
     "greeting": "你好，{{name}}！",
     "nameTitle": "姓名",
-    "userMessagesUnread": "你好，<0>{{name}}</0>！你有{{count}}条未读消息。<1>Go to messages</1>",
+    "userMessagesUnread": "你好，<0>{{name}}</0>！你有{{count}}条未读消息。<1>前往查看</1>",
     "items": {
       "zero": "没有项目",
       "one": "1 个项目",
