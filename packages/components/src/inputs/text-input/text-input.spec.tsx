@@ -1,5 +1,6 @@
 import '@testing-library/jest-dom';
 import { fireEvent, render } from '@testing-library/react';
+
 import { TextInput } from './text-input'; // Fixed import path
 import styles from './text-input.module.scss';
 

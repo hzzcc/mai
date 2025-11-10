@@ -1,6 +1,7 @@
 import { fireEvent, render } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import { expect } from 'vitest';
+
 import { DatlasTheme } from './theme';
 
 describe('DatlasTheme', () => {

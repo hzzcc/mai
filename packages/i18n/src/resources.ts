@@ -1,5 +1,5 @@
-import zhCNTranslation from './zh-CN/translation.json';
 import enUSTranslation from './en-US/translation.json';
+import zhCNTranslation from './zh-CN/translation.json';
 
 export const resources = {
   'zh-CN': {

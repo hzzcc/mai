@@ -1,6 +1,8 @@
-import { merge } from 'lodash';
 import type React from 'react';
 import { useMemo } from 'react';
+
+import { merge } from 'lodash';
+
 import type { CreateThemeOptions } from './create-theme';
 
 export type ThemeProviderProps<T> = {

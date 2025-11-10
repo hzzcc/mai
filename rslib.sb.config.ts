@@ -1,4 +1,5 @@
 import { defineConfig } from '@rslib/core';
+
 import { plugins } from './rslib.config';
 
 export default defineConfig({

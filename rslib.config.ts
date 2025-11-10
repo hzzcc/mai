@@ -1,7 +1,7 @@
+import { pluginBabel } from '@rsbuild/plugin-babel';
 import { pluginReact } from '@rsbuild/plugin-react';
 import { pluginSass } from '@rsbuild/plugin-sass';
 import { defineConfig, type RslibConfig } from '@rslib/core';
-import { pluginBabel } from '@rsbuild/plugin-babel';
 
 export const plugins = [
   pluginReact(),

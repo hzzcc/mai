@@ -1,6 +1,7 @@
-import { I18nProvider, resources } from '@mai/i18n';
-import { DatlasTheme, useThemeController } from '@mai/components/theme';
 import React from 'react';
+
+import { DatlasTheme, useThemeController } from '@mai/components/theme';
+import { I18nProvider, resources } from '@mai/i18n';
 
 const ThemeObserverSystem = () => {
   const { setThemeMode } = useThemeController();

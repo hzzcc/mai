@@ -1,5 +1,7 @@
-import classNames from 'classnames';
 import { type ReactNode, useCallback, useState } from 'react';
+
+import classNames from 'classnames';
+
 import './theme.scss';
 import {
   ThemeContext,

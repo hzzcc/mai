@@ -1,11 +1,13 @@
 import './App.css';
+
+import { BrowserRouter, Link } from 'react-router-dom';
+
+import { AppProvider } from '@mai/business-components/provider/AppProvider';
+import { UserProfile } from '@mai/business-components/user-profile';
+import { Button } from '@mai/components/button';
 import { TextInput } from '@mai/components/inputs/text-input';
 import { useThemeController } from '@mai/components/theme';
-import { UserProfile } from '@mai/business-components/user-profile';
 import { useI18n, Trans } from '@mai/i18n';
-import { BrowserRouter, Link } from 'react-router-dom';
-import { Button } from '@mai/components/button';
-import { AppProvider } from '@mai/business-components/provider/AppProvider';
 
 const AppContent = () => {
   const {

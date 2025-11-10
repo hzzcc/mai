@@ -1,12 +1,14 @@
 import { useMemo, type ReactNode } from 'react';
+
 import i18n from 'i18next';
 import {
   I18nextProvider,
   useTranslation,
   initReactI18next,
 } from 'react-i18next';
-import type { I18nConfig, Locale } from './types';
+
 import { defaultNS } from './resources';
+import type { I18nConfig, Locale } from './types';
 import './i18next.d.ts';
 
 export interface I18nProviderProps {

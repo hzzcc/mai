@@ -1,5 +1,6 @@
-import type { Resources } from './resources';
 import type { useTranslation } from 'react-i18next';
+
+import type { Resources } from './resources';
 
 export type Locale = 'zh-CN' | 'en-US';
 export interface I18nConfig {
